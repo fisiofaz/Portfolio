@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono & family= Roboto:wght@400;700 & display=swap');
+
+body {
+  background-color: #f2e7dc;
+  color: #0d0d0d;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  width: 85%;
+  margin: auto;
+}
+div {
+  background-color: #038c7f;
+  color: #f2e7dc;
+
+}
+
+h1 {
+  text-align: center; 
+  font-size: 40px; 
+}
+
+h4 {
+  text-align: center;
+  color: #a9d9d0;
+  font-size: 25px;
+}
+
+section {
+  padding: 256px 64px;
+}
+
+.titulo {
+  background-color: #a9d9d0;
+  color: #027373;
+  text-align: center;
+  font-size: 35px;
+}
+#l1, #l3, #l5 {
+  background-color: #a9d9d0;
+  border-radius: 50px;
+}
+
+#topo {
+  background-color: #03BC7F;
+  color: #f2e7dc;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+#sumario{
+  background-color: #03BC7F;
+  color: #f2e7dc;
+  padding: 20px;
+  margin-bottom: 58px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-size: 20'px;
+}
+p {
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 20px;
+}
+
+a:link {
+  color: #b07030;
+}
+
+a:visited {
+  color: #0d4f88;
+}
+
+a:hover {
+  color: #025454;
+}
+
+a:active {
+  color: #000000;
+}
+
+img {
+  width: 40%;
+  display: block;
+  margin: auto;
+  border-radius: 50px;
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 8px;
+}
+
+td {
+  background-color: #a9d9d0;
+}
+
+th {
+  background-color: #038c7f;
+  color: #000000;
+}
+
+tr {
+  background-color: #038c7f;
+}
+
+

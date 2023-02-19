@@ -1,0 +1,125 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #008000;
+  --secondary-color:  #006342;
+  --tertiary-color: white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*menufixo*/
+.hero_titulo {
+  font-size: 4.5rem;
+}
+
+.hero_desc {
+  font-size: 2rem;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--tertiary-color);
+}
+
+.bgimage {
+  height: 100vh;
+  background: url('./image/image1.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+/*sobre*/
+
+.imageSobre{
+ width: 100%; 
+}
+
+.container ul li {
+  list-style-type: none
+}
+
+/*serviço*/
+
+.servicesText {
+  height: 280px;
+  cursor: pointer;
+}
+
+.fa-brands {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card:hover .servicesIcon {
+  color: var(--primary-color);
+}
+
+.servicesText:hover {
+  border: 1px solid var(--primary-color);
+}
+
+.navbar {
+  background-color: rgb(3, 1, 21);
+}
+
+.navbar a {
+  color: var(--tertiary-color)
+}
+
+.navbar a:hover {
+  background-color: #bbb;
+  color: black;
+}
+
+/* menu */
+.navbar {
+	background-color: var(--secondary-color);
+}
+.navbar a {
+	color: var(--tertiary-color);
+}
+.navbar a:hover {
+	color: black;
+	background-color: #ddd;
+}
+
+.contactIcon{
+	font-size: 56px;
+	color: var(--secondary-color);
+}
+
+.fa-solid {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.glass {
+	height: 40%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.9px);
+	-webkit-backdrop-filter: blur(4.9px);
+}
+
+#sobre, #servicos, #portfolio, #portfolio2, #contato {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
