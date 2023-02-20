@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-    <img src="./image/image1.jpg">
+    <img src="https://raw.githubusercontent.com/fisiofaz/Portfolio/main/portf%C3%B3lio/Thumbnail/readme.png">
 </h1>
 
 
